@@ -34,11 +34,6 @@ public class MainActivity extends AppCompatActivity {
         outState.putCharSequence(KEY_TEXT_VALUE2, nTextView.getText());
     }
 
-    public void plus3A(View view) {
-        scoreTeamA += 3;
-        displayForTeamA(scoreTeamA);
-    }
-
     public void FoulA(View view) {
         scoreTeamA -= 1;
         displayForTeamA(scoreTeamA);
