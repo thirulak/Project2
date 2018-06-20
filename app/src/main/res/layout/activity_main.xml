@@ -46,8 +46,8 @@
                 android:layout_marginLeft="@dimen/dimen_24"
                 android:layout_marginRight="@dimen/dimen_24"
                 android:background="@color/colorAccent"
-                android:onClick="plus3A"
-                android:text="@string/points3" />
+                android:onClick="GoalA"
+                android:text="@string/GoalA" />
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -55,17 +55,8 @@
                 android:layout_marginRight="@dimen/dimen_24"
                 android:layout_marginTop="@dimen/dimen_8"
                 android:background="@color/colorAccent"
-                android:onClick="plus2A"
-                android:text="@string/points2" />
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/dimen_24"
-                android:layout_marginRight="@dimen/dimen_24"
-                android:layout_marginTop="@dimen/dimen_8"
-                android:background="@color/colorAccent"
-                android:onClick="plus1A"
-                android:text="@string/points1" />
+                android:onClick="FoulA"
+                android:text="@string/FoulA" />
         </LinearLayout>
         <View
             android:layout_width="@dimen/dimen_1"
@@ -104,8 +95,8 @@
                 android:layout_marginLeft="@dimen/dimen_24"
                 android:layout_marginRight="@dimen/dimen_24"
                 android:background="@color/colorAccent"
-                android:onClick="plus3B"
-                android:text="@string/points3" />
+                android:onClick="GoalB"
+                android:text="@string/GoalB" />
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -113,17 +104,8 @@
                 android:layout_marginRight="@dimen/dimen_24"
                 android:layout_marginTop="@dimen/dimen_8"
                 android:background="@color/colorAccent"
-                android:onClick="plus2B"
-                android:text="@string/points2" />
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/dimen_24"
-                android:layout_marginRight="@dimen/dimen_24"
-                android:layout_marginTop="@dimen/dimen_8"
-                android:background="@color/colorAccent"
-                android:onClick="plus1B"
-                android:text="@string/points1" />
+                android:onClick="FoulB"
+                android:text="@string/FoulB" />
         </LinearLayout>
     </LinearLayout>
     <Button

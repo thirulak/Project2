@@ -38,53 +38,31 @@ public class MainActivity extends AppCompatActivity {
 
 
     /**
-     * @param view Adds 3 to the score
+     * @param view Adds 2 to the score
      */
-    public void plus3A(View view) {
+    public void FoulA(View view) {
+        scoreTeamA -= 1;
+        displayForTeamA(scoreTeamA);
+    }
+
+    /**
+     * @param view
+     */
+    public void GoalA(View view) {
         scoreTeamA += 3;
         displayForTeamA(scoreTeamA);
     }
-
-    /**
-     * @param view Adds 2 to the score
-     */
-    public void plus2A(View view) {
-        scoreTeamA += 2;
-        displayForTeamA(scoreTeamA);
-    }
-
-    /**
-     * @param view Adds 1 to the score
-     */
-    public void plus1A(View view) {
-        scoreTeamA += 1;
-        displayForTeamA(scoreTeamA);
-    }
-
-    public void plus3B(View view) {
-        scoreTeamB += 3;
-        displayForTeamB(scoreTeamB);
-    }
-
-    /**
-     * @param view Adds 2 to the score
-     */
-    public void plus2B(View view) {
-        scoreTeamB += 2;
-        displayForTeamB(scoreTeamB);
-    }
-
-    /**
-     * @param view Adds 1 to the score
-     */
-    public void plus1B(View view) {
-        scoreTeamB += 1;
-        displayForTeamB(scoreTeamB);
-    }
-
     /**
      * @param view resets the score of both the teams
      */
+    public void FoulB(View view) {
+        scoreTeamB -= 1;
+        displayForTeamB(scoreTeamB);
+    }
+    public void GoalB(View view) {
+        scoreTeamB += 3;
+        displayForTeamB(scoreTeamB);
+    }
     public void resetScore(View view) {
         scoreTeamA = 0;
         scoreTeamB = 0;

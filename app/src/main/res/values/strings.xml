@@ -8,4 +8,10 @@
     <string name="reset">reset</string>
     <string name="zero">0</string>
     <string name="points1">+1 points</string>
+    <string name="Foul">Foul</string>
+    <string name="Goal">Goal</string>
+    <string name="GoalA">Goal</string>
+    <string name="FoulA">Foul</string>
+    <string name="GoalB">Goal</string>
+    <string name="FoulB">Foul</string>
 </resources>
